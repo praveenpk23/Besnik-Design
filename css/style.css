@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Poppins", sans-serif;
+}
+
+main{
+    /* background-color: #245381; */
+    background-image: url(../IM/banner/bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header START */
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner-btn > a > img{
+    margin-left: 10px;
+}
+.container{
+    width: 80%;
+    margin : 0 auto;
+}
+header{
+    /* background-color: #f8f9fa; */
+    padding: 20px 0;
+    color: #fff;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap:30px
+}
+/* Header END */
+
+/* Banner START */
+.banner-wrapper{
+    text-align: center;
+    color: #fff;
+}
+
+.banner-wrapper > h1{
+    /* font-size: 200px; */
+    /* font-size: 0px; */
+    margin: 80px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner-wrapper > p{
+    /* font-size: 20px; */
+    margin: 65px 0;
+    /* margin: 20px 0; */
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-btn > a{
+    text-decoration: none;
+    background-color: #231a36;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 50px;
+        margin-bottom: 30px ;
+}
+
+/* Banner END */
+
+/* Clients START */
+.clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.clients-wrapper >:nth-child(1){
+    text-align: center;
+    margin: 40px 0;
+    color: #b2b7be;
+    font-weight: 600;
+}
+/* Client END */
+
+/* Solution START */
+
+.SoulTxt{
+    text-align: center;
+    /* margin: 50px 0; */
+    color: #231a36;
+}
+.SoulTxt > h1{
+    /* font-size: 50px; */
+    margin: 20px 0;
+    font-weight: 600;
+}
+.SoulTxt > p{
+    /* margin: 20px 0; */
+}
+.container > h1{
+    text-align: center;
+    margin-top: 50px ;
+    color: #231a36;
+}
+.soul{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.soul-wrapper{
+    display: flex;
+    margin: 50px 0;;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.soul-wrapper > div{
+    /* text-align: center; */
+    margin: 20px 0; 
+}
+.soul-wrapper > div >h2{
+    color: blue;
+}
+.soul-wrapper > div > a{
+    text-decoration: none;
+    color: blue;
+}
+/* Solution END */
+ /* contents Start */
+ .contents {
+    background-color: #b2b7be4d;
+    padding: 15px 0 0 0;
+   
+ }
+/* contents End */
+
+
+
+/* Serach-details Start */
+.Serach-details{
+    background-color: rgb(0, 0, 58);
+    padding: 50px ;
+     color: white;
+    text-align: center;
+}
+
+.Search-details-top > p{
+    margin: 20px 0;
+}
+
+.Search-details-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+/* Serach-details End */
+
+
+/* subsribe Start */
+.subsribe{
+   background-image: url(../IM/banner/bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.subscribe-wrapper{
+    text-align: center;
+    padding: 30px 100px 40px 100px;
+    color: #fff;
+    
+}
+
+.subscribe-wrapper > p {
+    margin:25px 0;
+}
+.subscribe-wrapper > a {
+    text-decoration: none;
+    background-color: #231a36;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+
+    margin-top: 20px;
+}
+/* subsribe End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Happy icon & txt START */
+.happy-icon-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+/* .happy-icon-txt >h1{
+    align-items: flex-start;
+} */
+
+.Happy > p{
+    text-align: center;
+    margin: 20px 0;
+
+
+
+    
+}
+
+/* Happy icon & txt END */
+
+/* END_WRAPPER STATR */
+.END_WRAPPER{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.END_WRAPPER > div > h4{
+    
+    margin-top: 50px ;
+}
+/* END_WRAPPER END */
+
+/* Footer START */
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-links{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links > a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.footer-copyright{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+
+
+/* Footer End */
+
+
+/* Media Queries START */
+@media screen and (max-width: 768px){
+    .header-wrapper{
+        flex-direction: column;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        gap:20px
+    }
+    .banner-wrapper > h1{
+        font-size: 40px;
+    }
+    .banner-wrapper > p{
+        /* font-size: 18px; */
+    }
+    .soul-wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .soul-wrapper > img{
+        order: 1;
+        width: 80%;
+    }
+    .END_WRAPPER{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .END_WRAPPER > img{
+        margin-top: 100px;
+        width: 80%;
+ 
+}
+
+   .footer-wrapper{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .footer-icons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-copyright{
+        margin-top: 20px;
+    } 
+    .subsribe{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .subscribe-wrapper{
+        padding: 30px 20px 40px 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+.clients{
+        /* flex-direction: column; */
+        flex-wrap: wrap ;
+        align-items: center;
+        gap: 20px;
+    }
+    .Search-details-wrapper {
+        flex-wrap: wrap;
+    }
+  
+  
+   }
+
+
+
+
+@media screen and (min-width: 1080px){
+   .text-break{
+        display: block;
+   }
+
+   .banner-wrapper > h1{
+         font-size:90px;
+   }
+
+}
